@@ -1,0 +1,105 @@
+
+        .section-title {
+            background-color: #577a9e;
+            color: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .icon-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .icon-wrapper i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        .html-icon {
+            color: #e34c26;
+        }
+
+        .css-icon {
+            color: #1572b6;
+        }
+
+        .js-icon {
+            color: #f7df1e;
+        }
+
+        .python-icon {
+            color: #3776ab;
+        }
+
+        .cpp-icon {
+            color: #00599c;
+        }
+
+        .java-icon {
+            color: #007396;
+        }
+
+        .sql-icon {
+            color: #cc2927;
+        }
+
+        .section-content {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section-content h5 {
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item i {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+body {
+   
+    padding-top: 56px; /* Ajuste para la barra de navegación fija */
+}

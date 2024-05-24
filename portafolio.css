@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* Ajuste para la barra de navegación fija */
+}
+
+.hero-section {
+    background-color: #577a9e;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el contenedor principal */
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: auto; /* Centra horizontalmente */
+}
+
+/* Estilos para el contenedor de texto e imagen */
+.project-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card:hover {
+    box-shadow: 0 9px 19px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título */
+.project-card h2 {
+    font-size: 2rem;
+    color: #030303;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el párrafo */
+.project-card p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Estilos para la imagen */
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para el título "PROJECTS" */
+.card-title {
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #324751;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Estilos para la sección "Call to action" */
+.cta-section {
+    background-color: #577a9e;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el recuadro adicional */
+.p-5.project-card {
+    background-color: #f0f0f0; /* Color de fondo para el recuadro adicional */
+}

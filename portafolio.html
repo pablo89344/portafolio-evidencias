@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Santamaria</title>
+    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .project-card {
+            border-radius: 20px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover {
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .project-details {
+            background-color: #f8f9fa;
+            border-radius: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="pointer-events: none;">Pablo Santamaria</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Resumen profecional .html">Resume</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/portafolio.html">Projectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contac.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Projectos</h1>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!-- estructura para cada proyecto -->
+    <div class="align-items-center projects">
+        <div class="card project-card mb-5">
+            <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-4">
+                        <div class="project-details">
+                            <h2 class="fw-bolder">SAEVH</h2>
+                            <p class="mb-2">Sistema para la administración de documentos ejidales en el ejido Villa de Huetamo</p>
+                            <div class="small fw-bolder">Proyecto 1</div>
+                            <div class="small text-muted">Fecha de inicio: 2023</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <img class="img-fluid" src="im.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--estructura para cada proyecto -->
+    <div class="align-items-center projects">
+        <div class="card project-card mb-5">
+            <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-4">
+                        <div class="project-details">
+                            <h2 class="fw-bolder">APP Pastelería</h2>
+                            <p class="mb-2">Página web. Punto de ventas de pasteles</p>
+                            <div class="small fw-bolder">Proyecto 2</div>
+                            <div class="small text-muted">Fecha de inicio: 2022</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <img class="img-fluid" src="img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- estructura para cada proyecto -->
+    <div class="align-items-center projects">
+        <div class="card project-card mb-5">
+            <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-4">
+                        <div class="project-details">
+                            <h2 class="fw-bolder">El Amanecer</h2>
+                            <p class="mb-2">Sistema gestor de ventas y de almacén</p>
+                            <div class="small fw-bolder">Proyecto 3</div>
+                            <div class="small text-muted">Fecha de inicio: 2021</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <img class="img-fluid" src="imgen.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- barra de pie de pagina de contacto  -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Estoy emocionado por la oportunidad de colaborar y contribuir al éxito de su empresa. ¿Podemos conversar más?</h2>
+            <a class="btn btn-lg btn-light" href="/contac.html">Contactame</a>
+        </div>
+    </section>
+
+    <!-- pie de pagina -->
+    <footer class="footer mt-auto">
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright © Pablo Santamaria 2023</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">·</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">·</span>
+                        <a class="small" href="/contac.html">Contactame</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src
